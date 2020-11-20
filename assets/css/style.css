@@ -8,6 +8,12 @@ body {
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     color: #2E3349;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 622px, 622px;
+    background-position: left -350px top -300px, right -350px bottom -300px;
+    background-color: hsl(185, 75%, 39%);
+    background-attachment: fixed, fixed;
 }
 
 main {
@@ -28,6 +34,7 @@ main {
     left: 50%;
     margin: -187px 0 0 -163px;
     text-align: center;
+    background-color: white;
 }
 
 .photo {
@@ -54,4 +61,26 @@ h2 {
     font-size: 14px;
     color: #6B7082;
     font-weight: 400;
+}
+
+.stats {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px #E8E9EC solid;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.number {
+    font-weight: 700;
+}
+
+.details {
+    font-size: 10px;
+    color: #6B7082;
+    letter-spacing: 1.5px;
 }
