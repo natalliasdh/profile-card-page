@@ -85,12 +85,12 @@ h2 {
     letter-spacing: 1.5px;
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:900px) {
     .container {
         width: 350px;
     }
     body {
         background-size: 976px, 976px;
-        background-position: left -500px top -500px, right -350px bottom -700px;
+        background-position: left -330px top -500px, right -240px bottom -650px;
     }
 }
