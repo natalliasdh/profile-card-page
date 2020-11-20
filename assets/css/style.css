@@ -84,3 +84,13 @@ h2 {
     color: #6B7082;
     letter-spacing: 1.5px;
 }
+
+@media only screen and (min-width:768px) {
+    .container {
+        width: 350px;
+    }
+    body {
+        background-size: 976px, 976px;
+        background-position: left -500px top -500px, right -350px bottom -700px;
+    }
+}
